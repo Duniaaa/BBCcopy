@@ -1,0 +1,163 @@
+<html>
+
+<head>
+    
+    
+    <title>Technology - BBC News</title>
+    
+    <style type="text/css">
+        #topbar {
+            
+            width: 1000px;
+            margin:0 auto;
+            height: 40px;    
+            
+        }
+        
+        body {
+            
+            margin: 0;
+            padding:0;
+            font-family: Arial, Helvetica, freesans, sans-serif;
+            
+            
+        }
+        
+        #logo {
+            
+            margin-top: 8px;
+            width: 100px;
+            float:left;
+            margin-right: 8px;
+        }
+        
+        .topbar-section {
+            
+            float:left;
+            border-left: 1px #CCCCCC solid;
+            height:100%;
+        }
+        
+        #signin-image {
+            
+            width:25px;
+            margin:10px 10px;
+            float:left;
+            
+        }
+        
+        #signin-text {
+            
+            font-weight: bold;
+            font-size: 90%;
+            position: relative;
+            top:14px;
+            margin-right: 5px;
+            
+            
+        }
+        
+        .topbar-menu {
+            
+            font-weight: bold;
+            font-size: 90%;
+            padding: 14px 15px 0 15px;
+            height: 27px;
+                
+                
+        }
+        
+        #arrow-down {
+            
+            margin-left: 20px;
+        }
+        
+        #search-box {
+            background-color: #B6B6B6;
+            border:none;
+            font-weight:bold;
+            font-size: 14px;
+            padding: 5px;
+            margin-top: 5px;
+            margin-left: 4px;
+            margin-right: 0px;
+            float:left;
+        }
+        
+        #lupa {
+            
+            height: 28px;
+            margin-top: 5px;
+            
+        }
+        
+        .clear {
+            
+            clear: both
+        }
+    
+    </style>  
+    
+</head>
+
+<body>
+    
+    
+    <div id="topbar">
+        <img id="logo" src="images/bbc-logo.png">
+        
+        <div id="signin-div" class="topbar-section">
+            <img id="signin-image" src="images/signin.png">
+            <span id="signin-text">Sign in</span>
+        
+        </div>
+        
+        
+        <div class="topbar-section topbar-menu">
+            News
+        </div>
+        
+         <div class="topbar-section topbar-menu">
+            Sport
+        </div>
+        
+         <div class="topbar-section topbar-menu">
+            Weather
+        </div>
+        
+         <div class="topbar-section topbar-menu">
+            Shop
+        </div>
+        
+         <div class="topbar-section topbar-menu">
+            Earth
+        </div>
+        
+         <div class="topbar-section topbar-menu">
+            More
+             <img id="arrow-down" src="images/arrow-down.png"> 
+        </div>
+        
+        <div class="topbar-section">
+            <input id="search-box" type="text" value="Search">
+            
+            <input type="image" id="lupa" src="images/lupa.png">
+        </div>
+    </div>
+    
+    <div class=:"clear">
+    
+    
+    
+    </div>
+        
+    
+    
+    
+    
+    
+</body>
+
+
+
+</html>
